@@ -1,0 +1,55 @@
+(a)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+(b)
+9
+command: git rev-list --count HEAD
+
+(c)
+Thu jan 10 16:45:38 2019
+command: git log .gitignore
+
+(d)
+Branches allows the user to jump from different versions of a file very quickly and efficiently
+
+Branches also allows us to create and work on two different versions of the same file at the same time and merging both when completed.
+
+(e)
+git status looks at the entire repository and shows the changes that have been staged.
+
+git log shows the history of the repository and single files to see when it was last updated.
+git log also allows the user to search for specific changes done in the repository or a file.
+
+(f)
+git log Weapon.h
+
+(g)
+git log --all --grep='file'
+
+(h)
+I
+Inheritance is when a child class copies the functions and member data of the parent class 
+
+II
+Polymorphism is when a function call does different things based on the object that calls it
+
+III
+Encapsulation is the bundling of data and functions into a class/struct
+
+(i)
+Dictator and lieutenants workflow allows for multiple branches to be pushed.
+Integration managment only allows one person to push changes to the blessed repo.
+(j)
+The Centralized workflow would not work well with a large project and team because it only uses one branch.
+Dictator and lieutenants workflow would work much better because it allows everyone working on the project to use their own branch
+and merge later to complete it.
+
+RoleGame OOP principles:
+
+This project uses polymorphism as it is making seperate files that have seperate definitions of the same function for different classes
+
